@@ -24,9 +24,20 @@ Below are the steps that were undertaken
 
 1. Installed numpy using the command `conda install numpy`
 
-Image 1 (below): Installing numpy
+**Image 1 (below): Installing numpy**
 
 ![Installing numpy](./Resources/Installing_numpy.png)
+
+2. Imported numpy 
+`import numpy as np`
+
+3. Used the loc method on the student_data_df to select **all** the reading scores from the **9th** grade at **Thomas High School** and replaced them with NaN.
+```
+student_data_df.loc[(student_data_df["school_name"] == "Thomas High School") & (student_data_df["grade"] == "9th") & (student_data_df["reading_score"] > 0), "reading_score"] = np.nan
+```
+4. Refactored the code in previous step to replace the **math** scores with NaN.
+
+`student_data_df.loc[(student_data_df["school_name"] == "Thomas High School") & (student_data_df["grade"] == "9th") & (student_data_df["math_score"] > 0), "math_score"] = np.nan`
 
 =========================
 
