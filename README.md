@@ -6,7 +6,7 @@ I was tasked to help Maria, the Chief Data Scientist for the ***PyCity School Di
 
 To complete the task, I had to use Anaconda and the Jupyter Notebook.
 
-## Purpose
+## Purpose of this Analysis
 
 I completd my analysis as requested, but then the school board notified Maria and her supervisor that the `students_complete.csv` file shows evidence of academic dishonesty; specifically, reading and math grades for **Thomas High School** ninth graders appear to have been altered. 
 
@@ -31,7 +31,7 @@ Below are the steps that were undertaken
 2. Imported numpy 
 `import numpy as np`
 
-3. Used the loc method on the student_data_df to select **all** the reading scores from the **9th** grade at **Thomas High School** and replaced them with NaN.
+3. Used the `loc` method on the **student_data_df** to select **all** the reading scores from the **9th** grade at **Thomas High School** and replaced them with NaN.
 ```
 student_data_df.loc[(student_data_df["school_name"] == "Thomas High School") & (student_data_df["grade"] == "9th") & (student_data_df["reading_score"] > 0), "reading_score"] = np.nan
 ```
@@ -45,6 +45,27 @@ student_data_df.loc[(student_data_df["school_name"] == "Thomas High School") & (
 **Image 2 (below): Output of student data after replacing with NaN's**
 
 ![Output of student data after replacing with NaN's](./Resources/output_with_nans.png)
+
+6. Repeated the **school district analysis** that was done in Module 4 to recreate the metrices
+
+## Analysis Results
+
+Below are the answers to questions realated to how the replacement affected various metrices.
+
+#### 1. How is the district summary affected?
+
+#### 2. How is the school summary affected?
+
+#### 3. How does the replacement affect Thomas High School’s performance relative to the other schools?
+
+#### 4. How does the replacement affect the Math and reading scores by grade
+
+#### 5. How does the replacement affect the scores by school spending
+
+#### 6.  How does the replacement affect the scores by school size
+
+#### 7.  How does the replacement affect the scores by school type
+
 =========================
 
 For this part of the Challenge, write a report that summarizes your updated analysis and compares it with the results from the module.
@@ -55,14 +76,8 @@ Overview of the school district analysis: Explain the purpose of this analysis.
 
 Results: Using bulleted lists and images of DataFrames as support, address the following questions.
 
-How is the district summary affected?
-How is the school summary affected?
-How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
-How does replacing the ninth-grade scores affect the following:
-Math and reading scores by grade
-Scores by school spending
-Scores by school size
-Scores by school type
+
+
 
 Summary: Summarize four major changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
 ========================================
