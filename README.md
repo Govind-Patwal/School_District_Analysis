@@ -52,23 +52,23 @@ student_data_df.loc[(student_data_df["school_name"] == "Thomas High School") & (
 
 Below are the answers to questions realated to how the replacement affected various metrices.
 
-#### 1. How is the *district* summary affected?
+### 1. How is the ***district*** summary affected?
 ![Change in District summary](./Resources/district_summary_before_and_after.png)
 
 
-#### 2. How is the *school* summary affected?
+### 2. How is the ***school*** summary affected?
 ![Change in School summary](./Resources/school_summary_before_and_after.png)
 
 
-#### 3. How does the replacement affect *Thomas High School’s* performance relative to the other schools?
+### 3. How does the replacement affect ***Thomas High School’s*** performance relative to the other schools?
 
-#### 4. How does the replacement affect the Math and Reading scores by *grade*
+### 4. How does the replacement affect the Math and Reading scores by ***grade***
 
-#### 5. How does the replacement affect the scores by *school spending*
+### 5. How does the replacement affect the scores by ***school spending***
 
-#### 6.  How does the replacement affect the scores by *school size*
+### 6.  How does the replacement affect the scores by ***school size***
 
-#### 7.  How does the replacement affect the scores by *school type*
+### 7.  How does the replacement affect the scores by ***school type***
 
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
