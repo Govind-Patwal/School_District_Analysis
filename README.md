@@ -53,30 +53,74 @@ student_data_df.loc[(student_data_df["school_name"] == "Thomas High School") & (
 Below are the answers to questions realated to how the replacement affected various metrices.
 
 #### 1. How is the ***district*** summary affected?
+
+*There  is a slight downward change in district averages*
+* Average Math Score:       Decreased by 0.1 (from 79.0 to 78.9)
+* Average Reading Score:    No change (from 81.9)
+* Passing Math %:           Decreased by 1% (from 75 to 74)
+* Passing Reading %:        Decreased by 1% (from 86 to 85)
+* Overall Passing %:        Decreased by 1% (from 65 to 64)
+
+**Image 3 (below): Affect of the replacement on DISTRICT summary**
 ![Changes in District summary](./Resources/district_summary_before_and_after.png)
 
 
 #### 2. How is the ***school*** summary affected?
+
+*The induvidual scores of schools except ***Thomas High School*** haven't changed*
+
+*Drastic decrease in the Passing Math %, Passing Reading % and Overall Passing % of ***Thomas High School***.*
+* Passing Math % decreased from 93.27% to 66.91%
+* Passing Reading % decreased from 97.31% to 69.66%
+* Overall Passing % decreased from 90.95% to 65.08%
+
+**Image 4 (below): Affect of the replacement on SCHOOL summary**
 ![Changes in School summary](./Resources/school_summary_before_and_after.png)
 
 
 #### 3. How does the replacement affect ***Thomas High School’s*** performance relative to the other schools?
-With the drop in overall perecentage, the position of ***Thomas High School*** moved down from 2nd to 8th.
+Before the replacement, ***Thomas High School*** was placed 2nd amongst the 15 school according to **Overall Passing %**. With the changes, it lost 6 places and moved to the 8th spot.
+
+The schools that were earlier placed between 3rd and 8th, all gained one spot.
 
 #### 4. How does the replacement affect the Math and Reading scores by ***grade***
+*As the changes were made only to the scores of the 9th grade of **Thomas High School**, only 2 entries were affected, all others remained the same*
+* The 9th grade maths scores of **Thomas High School** were changed from 83.6 to nan
+* The 9th grade reading scores of **Thomas High School**were changed from 83.7 to nan 
+
+**Image 5 (below): Affect of the replacement on Math and Reading scores by GRADES**
+
 ![Math and Reading scores: Before and After](./Resources/math_and_reading_scores_before_and_after.png)
 
 
-
 #### 5. How does the replacement affect the scores by ***school spending***
-![Changes in School spending](./Resources/budget_summary_before_and_after.png)
+*As **Thomas High School** fell in the $630-$644 range, changes were seen in this range, the other 3 ranges were unaffected*
+* The  Passing Math % for the **$630-$644 range** dropped from 73% to 67%
+* The Passing Reading % for the **$630-$644 range** dropped from 84 to 77%
+* The Overall Passing % for the **$630-$644 range** dropped from 63% to 56%
+
+**Image 6 (below): Affect of the replacement on scores by SCHOOL BUDGET**
+![Changes in Scores of schools according to budget](./Resources/budget_summary_before_and_after.png)
 
 
 #### 6.  How does the replacement affect the scores by ***school size***
+*As **Thomas High School** fell in the Medium-Size-School category, changes were seen in this range, the other 2 categories were unaffected*
+* The  Passing Math % for the **Medium-Size-School category** dropped from 94% to 88%
+* The Passing Reading % for the **Medium-Size-School category** dropped from 97 to 91%
+* The Overall Passing % for the **Medium-Size-School category** dropped from 91% to 85%
+
+**Image 7 (below): Affect of the replacement on scores by SCHOOL SIZE**
 ![Changes by school size](./Resources/before_and_after_scores-by_school_size.png)
 
 
 #### 7.  How does the replacement affect the scores by ***school type***
+*As **Thomas High School** fell in the Charter School type, changes were seen in this School type, the other type was unaffected*
+* The  Passing Math % for **Charter Schools** dropped from 94% to 90%
+* The Passing Reading % for **Charter Schools** dropped from 97 to 93%
+* The Overall Passing % for **Charter Schools** dropped from 90% to 87%
+
+**Image 7 (below): Affect of the replacement on scores by SCHOOL TYPE**
+
 ![Changes by school type](./Resources/before_and_after_scores-by_school_type.png)
 
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
