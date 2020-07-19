@@ -57,6 +57,8 @@ Below are the answers to questions realated to how the replacement affected vari
 
 
 #### 2. How is the *school* summary affected?
+![Change in School summary](./Resources/school_summary_before_and_after.png)
+
 
 #### 3. How does the replacement affect *Thomas High School’s* performance relative to the other schools?
 
