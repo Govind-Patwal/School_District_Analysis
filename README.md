@@ -52,21 +52,21 @@ student_data_df.loc[(student_data_df["school_name"] == "Thomas High School") & (
 
 Below are the answers to questions realated to how the replacement affected various metrices.
 
-#### 1. How is the district summary affected?
+#### 1. How is the *district* summary affected?
 
-#### 2. How is the school summary affected?
+#### 2. How is the *school* summary affected?
 
-#### 3. How does the replacement affect Thomas High School’s performance relative to the other schools?
+#### 3. How does the replacement affect *Thomas High School’s* performance relative to the other schools?
 
-#### 4. How does the replacement affect the Math and reading scores by grade
+#### 4. How does the replacement affect the Math and Reading scores by *grade*
 
-#### 5. How does the replacement affect the scores by school spending
+#### 5. How does the replacement affect the scores by *school spending*
 
-#### 6.  How does the replacement affect the scores by school size
+#### 6.  How does the replacement affect the scores by *school size*
 
-#### 7.  How does the replacement affect the scores by school type
+#### 7.  How does the replacement affect the scores by *school type*
 
-=========================
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 For this part of the Challenge, write a report that summarizes your updated analysis and compares it with the results from the module.
 
@@ -76,10 +76,18 @@ Overview of the school district analysis: Explain the purpose of this analysis.
 
 Results: Using bulleted lists and images of DataFrames as support, address the following questions.
 
+<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 
 
-Summary: Summarize four major changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
+## Summary
+
+
+
+<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Summarize four major changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
+
+<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 ========================================
 
 Deliverable 3 Requirements
