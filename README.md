@@ -126,7 +126,7 @@ The schools that were earlier placed between 3rd and 8th, all gained one spot.
 ## Summary
 
 Although, as demonstrated above, there have been many minor changes to the school disctrict analysis after the score replacement, according to me the 4 major changes are:
-1. The drastic decrease in the Passing Math %, Passing Reading % and Overall Passing % of **Thomas High School**: from 93% to 67%, 97% to 70% and 91% to 65% respectively. This affected all metrices related to this school.
+1. The drastic decrease in the Passing Math %, Passing Reading % and Overall Passing % of **Thomas High School**: from 93% to 67%, 97% to 70% and 91% to 65% respectively. This affected all metrices this school is a part of.
 2. Relatd to the earlier point, but yet a major change in itself is the change in the ranking of **Thomas High School** in relation to other schools. Before the change, sitting at #2, it was amongst the best schools; now at #8, it is an average performing school with evidence of academic dishonesty. This can have many implications on how the school is treated in the future.
-3. As per SCHOOL SIZE, the top performing group was the Medium (1000-2000) school size with  overall passing % of 91. With the replacements, this school category has moved to the 2nd spot, with the 1st spot now taken by the Small (<1000) school size.
-4. As per spending ranges (per student), there was a 9% gap between the overall passing % of schools with budget $630-$644 and $645-$675. with the replacements this has narrowed down to only 2%.
+3. Before the changes, the top performing School-size was **Medium (1000-2000)**, with  overall passing % of 91. After the replacements, this school category has moved to the 2nd spot, with the 1st spot is now taken by the **Small (<1000)** school size. The results now show a co-realtion between school size and performace - we can infer, the smaller the school size, the better the performance. 
+4. Before the changes, there was a significant  gap of **9%** between the overall passing % of schools with budget $630-$644 and $645-$675. After the replacements, this gap has narrowed down to only **2%**.
