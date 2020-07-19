@@ -40,7 +40,11 @@ student_data_df.loc[(student_data_df["school_name"] == "Thomas High School") & (
 ```
 student_data_df.loc[(student_data_df["school_name"] == "Thomas High School") & (student_data_df["grade"] == "9th") & (student_data_df["math_score"] > 0), "math_score"] = np.nan
 ```
+5. Checked the student data for NaN's using the code `student_data_df.tail(10)`
 
+**Image 2 (below): Output of student data after replacing with NaN's**
+
+![Output of student data after replacing with NaN's](./Resources/output_with_nans.png)
 =========================
 
 For this part of the Challenge, write a report that summarizes your updated analysis and compares it with the results from the module.
