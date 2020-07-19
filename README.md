@@ -64,6 +64,9 @@ Below are the answers to questions realated to how the replacement affected vari
 With the drop in overall perecentage, the position of ***Thomas High School*** moved down from 2nd to 8th.
 
 #### 4. How does the replacement affect the Math and Reading scores by ***grade***
+![Change in School summary](./Resources/math_and_reading_scores_before_and_after.png)
+
+
 
 #### 5. How does the replacement affect the scores by ***school spending***
 
