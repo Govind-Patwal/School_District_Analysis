@@ -42,7 +42,7 @@ student_data_df.loc[(student_data_df["school_name"] == "Thomas High School") & (
 ```
 5. Checked the student data for NaN's using the code `student_data_df.tail(10)`
 
-**Image 2 (below): Output of student data after replacing with NaN's**
+**Image 2 (below): Output of student data after replacing with NaN's (with some NaN entries highlighted)**
 
 ![Output of student data after replacing with NaN's](./Resources/output_with_nans.png)
 
@@ -53,6 +53,8 @@ student_data_df.loc[(student_data_df["school_name"] == "Thomas High School") & (
 Below are the answers to questions realated to how the replacement affected various metrices.
 
 #### 1. How is the *district* summary affected?
+![Change in District summary](./Resources/district_summary_before_and_after.png)
+
 
 #### 2. How is the *school* summary affected?
 
