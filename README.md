@@ -37,7 +37,9 @@ student_data_df.loc[(student_data_df["school_name"] == "Thomas High School") & (
 ```
 4. Refactored the code in previous step to replace the **math** scores with NaN.
 
-`student_data_df.loc[(student_data_df["school_name"] == "Thomas High School") & (student_data_df["grade"] == "9th") & (student_data_df["math_score"] > 0), "math_score"] = np.nan`
+```
+student_data_df.loc[(student_data_df["school_name"] == "Thomas High School") & (student_data_df["grade"] == "9th") & (student_data_df["math_score"] > 0), "math_score"] = np.nan
+```
 
 =========================
 
