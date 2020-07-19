@@ -10,19 +10,19 @@ To complete the task, I had to use Anaconda and the Jupyter Notebook.
 
 I completd my analysis as requested, but then the school board notified Maria and her supervisor that the `students_complete.csv` file shows evidence of academic dishonesty; specifically, reading and math grades for **Thomas High School** ninth graders appear to have been altered. 
 
-Although the school board does not know the full extent of the academic dishonesty, they want to uphold state-testing standards and have turned to Maria for help. Maria asked me to replace the math and reading scores for Thomas High School with NaNs while keeping the rest of the data intact. 
+Although the school board did not know the full extent of the academic dishonesty, they wanted to uphold state-testing standards and turned to Maria for help. Maria asked me to replace the math and reading scores for Thomas High School with NaNs while keeping the rest of the data intact. 
 
-Once I have replaced the math and reading scores, Maria would like me to repeat the school district analysis that I did and write up a report to describe how these changes affected the overall analysis.
+Once I replace the math and reading scores, Maria would like me to repeat the school district analysis that I did earlier and write up a report to describe how these changes affected the overall analysis.
 
 ## Analysis Steps
 
-In the initial analyis (see the code file `PyCitySchools.ipynb`), we created a script to perfomr the required analysis.
+In the initial analyis (see the code file `PyCitySchools.ipynb`), we created a script to perform the required analysis.
 
-For this analysis, we have to only change the **9th** grade **Math** and **Reading** scores for the school **Thoams High School**, and run the script that I created for the initial analysis.
+For this analysis, we had to only change the **9th** grade **Math** and **Reading** scores for the school **Thoams High School**, and run the script that I created for the initial analysis.
 
 Below are the steps that were undertaken
 
-1. Installed numpy using the command `conda install numpy`
+1. Installed `numpy` using the command `conda install numpy`
 
 **Image 1 (below): Installing numpy**
 
