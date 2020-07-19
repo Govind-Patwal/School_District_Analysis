@@ -123,48 +123,11 @@ The schools that were earlier placed between 3rd and 8th, all gained one spot.
 
 ![Changes by school type](./Resources/before_and_after_scores-by_school_type.png)
 
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-
-For this part of the Challenge, write a report that summarizes your updated analysis and compares it with the results from the module.
-
-The analysis should contain the following:
-
-Overview of the school district analysis: Explain the purpose of this analysis.
-
-Results: Using bulleted lists and images of DataFrames as support, address the following questions.
-
-<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-
-
 ## Summary
 
+Although, as demonstrated above, there have been many minor changes to the school disctrict analysis after the changes, according to me the 4-5 major changes are:
+1. The drastic decrease in the Passing Math %, Passing Reading % and Overall Passing % of **Thomas High School**: from 93% to 67%, 97% to 70% and 91% to 65% respectively. This affected all metrices related to this school.
+2. Relatd to the earlier point, but yet a major change in itself is the change in the ranking of **Thomas High School** in relation to other schools. Before the change, sitting at #2, it was amongst the best schools; now at #8, it is an average performing school with evidence of academic dishonesty. This can have many implications on how the school is treated in the future.
+3. As per SCHOOL SIZE, the top performing group was the Medium (1000-2000) school size with  overall passing % of 91. With the replacements, this school category has moved to the 2nd spot, with the 1st spot now taken by the Small (<1000) school size.
+4. As per spending ranges (per student), there was a 9% gap between the overall passing % of schools with budget $630-$644 and $645-$675. with the replacements this has narrowed down to only 2%.
 
-
-<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-Summarize four major changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
-
-<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-========================================
-
-Deliverable 3 Requirements
-Structure, Organization, and Formatting (7 points)
-The written analysis has the following structure, organization, and formatting:
-
-There is a title, and there are multiple sections (2 pt).
-Each section has a heading and subheading (3 pt).
-Links to images are working, and code is formatted and displayed correctly (2 pt).
-Analysis (18 points)
-The written analysis has the following:
-
-Overview of the school district analysis:
-
-The purpose of this analysis is well defined (3 pt).
-Results:
-
-There is a bulleted list that addresses how each of the seven school district metrics was affected by the changes in the data (10 pt).
-Summary:
-
-There is a statement summarizing four major changes to the school district analysis after reading and math scores have been replaced (5 pt).
-
-========================================
